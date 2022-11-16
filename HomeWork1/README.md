@@ -3,15 +3,15 @@
 **Домашняя работа**:
 
 
-* [*Задача про дни недели*](https://github.com/IrinaKazantseva/WEB/tree/main/JavaScript/Seminar_JS)
+* [*Задача про дни недели*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork1/weekdays.py)
 
-* [*Проверка истинности утверждения*](https://github.com/IrinaKazantseva/WEB/tree/main/JavaScript/HomeWork_JS)
+* [*Проверка истинности утверждения*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork1/logic.py)
 
-* [*Номер плоскости по координатам точки*](https://github.com/IrinaKazantseva/WEB/tree/main/JavaScript/Seminar_JS)
+* [*Номер плоскости по координатам точки*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork1/quarterNumber.py)
 
-* [*Возможные координаты в указанной плоскости*](https://github.com/IrinaKazantseva/WEB/tree/main/JavaScript/HomeWork_JS)
+* [*Возможные координаты в указанной плоскости*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork1/pointsInQuarter.py)
 
-* [*Расстояние между точками в 2D пространстве*](https://github.com/IrinaKazantseva/WEB/tree/main/JavaScript/HomeWork_JS)
+* [*Расстояние между точками в 2D пространстве*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork1/2d.py)
 
 
 
