@@ -1,8 +1,8 @@
 # Вводные сведения
 
-#print("hello world") #string
+#print("hello world") # string
 
-#print(6) #integer
+#print(6) # integer
 
 #a=b=10
 #a=a+1
@@ -10,9 +10,9 @@
 
 #a=int(input("Введите а "))
 #if a%2==0:
-    #print(True) #четное
+    #print(True) # четное
 #else:
-    #print(False) #нечетное
+    #print(False) # нечетное
 
 # Задания
 
