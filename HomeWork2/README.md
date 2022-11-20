@@ -3,13 +3,13 @@
 **Домашняя работа**:
 
 
-* [*Задача про вещественное число*](тут будет ссылка)
+* [*Задача про вещественное число*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork2/sum_float.py)
 
-* [*Набор произведений от 1 до N*](тут будет ссылка)
+* [*Набор произведений от 1 до N*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork2/array_multiply.py)
 
-* [*Сумма чисел последовательности*](тут будет ссылка)
+* [*Сумма чисел последовательности*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork2/array_sum.py)
 
-* [*Список [-N,N] и работа с ним*](тут будет ссылка)
+* [*Список [-N,N] и работа с ним*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork2/list_n.py)
 
 
 
