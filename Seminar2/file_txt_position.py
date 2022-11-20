@@ -7,4 +7,6 @@ n = int(input("Введите число N: "))
 numbers = list(range(-n, n+1)) #верно для положительных чисел
 print(numbers)
 
-file=
+with open('file.txt', 'w') as file:
+    for i in range(n):
+        file.write(f'{i}\n')
