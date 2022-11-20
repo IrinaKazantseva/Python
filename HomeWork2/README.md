@@ -9,10 +9,6 @@
 
 * [*Сумма чисел последовательности*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork2/array_sum.py)
 
-* [*Список [-N,N] и работа с ним*](https://github.com/IrinaKazantseva/Python/blob/main/HomeWork2/list_n.py)
-
-
-
 
 
 
