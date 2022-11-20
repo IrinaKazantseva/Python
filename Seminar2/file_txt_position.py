@@ -8,5 +8,5 @@ numbers = list(range(-n, n+1)) #верно для положительных ч�
 print(numbers)
 
 with open('file.txt', 'w') as file:
-    for i in range(n):
+    for i in range(n*2+1):
         file.write(f'{i}\n')
