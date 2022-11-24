@@ -8,8 +8,3 @@ while len(fib) < n*2+1:
     fib.insert(0, fib[1] - fib[0])
     fib.append(fib[-1] + fib[-2])
 print(fib)
-
-
-
-
-
