@@ -3,3 +3,11 @@
 # - 45 -> 101101
 # - 3 -> 11
 # - 2 -> 10
+
+decimal = int(input("Введите десятичное число: "))
+binar = ""
+while decimal > 0:
+    binar = str(decimal%2)+binar
+    decimal//=2
+print(binar)
+
