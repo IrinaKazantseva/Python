@@ -35,3 +35,11 @@ multiply = numbers[position1]*numbers[position2]
 
 print(f'Значение множителя с индексом {position1} равно {numbers[position1]}. Значение множителя с индексом {position2} равно {numbers[position2]}. Их произведение = {multiply}')
 
+# result = 1
+# f = open('file.txt', 'r')
+# for line in f:
+# if line == "":
+# break
+# result *= numbers[int(line)]
+# f.close()
+# print(result)
