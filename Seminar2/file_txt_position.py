@@ -35,6 +35,21 @@ multiply = numbers[position1]*numbers[position2]
 
 print(f'Значение множителя с индексом {position1} равно {numbers[position1]}. Значение множителя с индексом {position2} равно {numbers[position2]}. Их произведение = {multiply}')
 
+# from random import randint
+# n = int(input('Введите число N - '))
+# numbers = []
+# for i in range(n):
+# numbers.append(randint(-n, n+1))
+# print(numbers)
+#
+# f = open('file.txt', 'w')
+# while True:
+# s = input('Укажите позицию для вычисления - ')
+# if s == "":
+# break
+# f.write(s+"\n")
+# f.close()
+#
 # result = 1
 # f = open('file.txt', 'r')
 # for line in f:
