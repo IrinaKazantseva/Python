@@ -56,9 +56,9 @@
 # Sample Output 3:
 # 0
 
-g= list(map(int, input().split()))
-t=0
-for i in range(1,len(g)):
-if g[i]>g[i-1]:
-t=t+1
-print(t)
+# g= list(map(int, input().split()))
+# t=0
+# for i in range(1,len(g)):
+# if g[i]>g[i-1]:
+# t=t+1
+# print(t)
