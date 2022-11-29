@@ -30,4 +30,8 @@ print(str)
 
 with open('polynom1.txt', 'w') as data:
     data.write(str)
+#
+# Для следующей задачи:
+# with open('polynom2.txt', 'w') as data:
+#     data.write(str)
 
