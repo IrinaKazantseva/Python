@@ -8,3 +8,7 @@ for i in range(1, len(numbers), 2):
     sum += numbers[i]
 print(f"Сумма элементов на нечетных позициях = {sum}")
 
+
+# my_list = [8, 5, 7, 3, 6]
+# print(sum(my_list[1::2]))
+

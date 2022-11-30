@@ -9,3 +9,13 @@ for i in range(len(numbers)):
     if numbers[i] % 1 != 0:
         newnumbers.append(round(numbers[i]%1, 2))
 print(f"Разница между максимальным и минимальным значением дробной части элементов списка = {max(newnumbers) - min(newnumbers)}")
+
+# list = [1.1, 1.2, 3.1, 5, 10.01]
+# min = 1
+# max = 0
+# for i in list:
+# if (i % 1) <= min:
+# min = i % 1
+# if ( i % 1) >= max:
+# max = i % 1
+# print (f"Разница между максимальным и минимальным значением дробной части равна: {(max-min)}")
