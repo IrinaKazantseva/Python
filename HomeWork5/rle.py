@@ -8,16 +8,30 @@ with open('original.txt', 'w') as file:
 # Алгоритм сжатия, запись в новый файл
 with open('original.txt', 'r') as data:
     origtext = data.read()
+# count = 1
+# compressed = ""
+# for i in range(len(origtext)-1):
+#     if origtext[i] == origtext[i+1]:
+#         count += 1
+#     else:
+#         compressed = compressed + str(count) + origtext[i]
+#         count = 1
+# if count > 1 or (origtext[len(origtext)-2] != origtext[-1]):
+#     compressed = compressed + str(count) + origtext[-1]
+
 count = 1
 compressed = ""
-for i in range(len(origtext)-1):
-    if origtext[i] == origtext[i+1]:
-        count += 1
-    else:
-        compressed = compressed + str(count) + origtext[i]
+char1 = ""
+for char in origtext:
+    if char is not char1:
+        if char1:
+            compressed += str(count) + char1
         count = 1
-if count > 1 or (origtext[len(origtext)-2] != origtext[-1]):
-    compressed = compressed + str(count) + origtext[-1]
+        char1 = char
+    else:
+        count +=1
+else:
+    compressed += str(count) + char1
 
 print(compressed)
 with open('result.txt', 'w') as file:
