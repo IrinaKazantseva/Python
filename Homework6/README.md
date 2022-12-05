@@ -5,8 +5,8 @@
 
 * [*1. Использованы map, enumerate.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/even_numb_map_enumerate.py)
 
-* [*2*]()
+* [*2. Использована lambda.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/lambda_f.py)
 
-* [*3*]()
+* [*3. Использован list_comprehension.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/list_comprehension.py)
 
-* [*4*]()
+* [*4. Использован zip.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/zip_f.py)
