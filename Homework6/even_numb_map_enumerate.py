@@ -9,4 +9,3 @@ for index, new in enumerate(numbers):
         news.append(new)
 print(news)
 print(sum(news))
-
