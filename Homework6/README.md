@@ -10,3 +10,5 @@
 * [*3. Использован list_comprehension.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/list_comprehension.py)
 
 * [*4. Использован zip.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/zip_f.py)
+
+* [*5. Использована lambda, filter.*](https://github.com/IrinaKazantseva/Python/blob/main/Homework6/filter_lambda.py)
