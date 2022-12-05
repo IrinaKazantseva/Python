@@ -5,7 +5,6 @@ coord = ['x > 0 and y > 0', 'x < 0 and y > 0', 'x < 0 and y < 0', 'x > 0 and y <
 quarter = ['1', '2', '3', '4']
 
 data = list(zip(quarter, coord))
-print(data)
 
 for i in range(4):
     if number in data[i][0]:
