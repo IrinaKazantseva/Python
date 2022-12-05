@@ -14,8 +14,8 @@ numbers = list(map(int, input("Введите числа через пробел
 print(numbers)
 new_numbers = []
 for i in numbers:
-if i not in new_numbers:
-new_numbers.append(i)
+    if i not in new_numbers:
+        new_numbers.append(i)
 print(new_numbers)
 
 # def elements(nums):
