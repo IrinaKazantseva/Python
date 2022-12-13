@@ -53,8 +53,8 @@ def get_salary() -> float:
 
 
 def get_salary_range() -> tuple:
-    lo = float(input("Введите начало диапазона занчений: "))
-    hi = float(input("Введите конец диапазона занчений: "))
+    lo = float(input("Введите начало диапазона значений: "))
+    hi = float(input("Введите конец диапазона значений: "))
     return lo, hi
 
 

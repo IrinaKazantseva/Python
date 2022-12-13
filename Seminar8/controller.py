@@ -36,7 +36,7 @@ def run_work():
         elif choice == 4:           # add employee
             add_employee(employees)
         elif choice == 5:           # remove employee
-            fired_employee = get_employee()
+            fired_employee = find_employee(employees)
             del_employee(employees, fired_employee)
         elif choice == 6:           # update employee data
             employee = find_employee(employees)

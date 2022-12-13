@@ -98,7 +98,7 @@ def update_employee(employees: list, employee: dict):
     elif idx == 6:
         employee["salary"] = get_salary()
     else:
-        print("Выввели неверный индекс")
+        print("Вы ввели неверный индекс")
 
 
 def add_employee(employees: list):
