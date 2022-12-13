@@ -34,7 +34,7 @@ def read_json() -> list:
 
 def write_csv(employees: list):
     with open(Path.cwd() / 'database.csv', 'w', encoding='utf-8') as fout:
-        csv_writer = csv.writer(fout)
+        csv_writer = csv.writer(fout, lineterminator="\r")
         for employee in employees:
             csv_writer.writerow(employee.values())
 
