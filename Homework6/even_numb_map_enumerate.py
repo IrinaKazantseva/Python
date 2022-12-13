@@ -9,3 +9,14 @@ for index, new in enumerate(numbers):
         news.append(new)
 print(news)
 print(sum(news))
+
+
+# def sum_odd_index(lst: list) -> int:
+# l = enumerate(lst)
+# l1 = filter(lambda e: e[0] % 2 == 1, l)
+# l2 = list(zip(*l1))
+# l3 = list(l2[1])
+# return sum(l3)
+#
+#
+# print(sum_odd_index([2, 3, 5, 9, 3]))
