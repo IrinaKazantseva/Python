@@ -12,3 +12,19 @@ print(f"Сумма элементов на нечетных позициях = {
 # my_list = [8, 5, 7, 3, 6]
 # print(sum(my_list[1::2]))
 
+# n = int(input())
+# numbers = []
+# comp = 0
+# result = []
+#
+# numbers = [input() for i in range(n)]
+# print(f'Изначальный список: {numbers}')
+#
+# result = list(map(lambda x: int(x) * int(numbers[-1 - int(numbers.index(x))]) if numbers[: int(len(numbers)/2)] else '', numbers))
+# result = result[:int(len(result)/2)]
+#
+# if (len(numbers)%2 == 1):
+# comp = int(numbers[int(n/2)]) * int(numbers[int(n/2)])
+# result.append(comp)
+#
+# print(f'Результат: {result}')

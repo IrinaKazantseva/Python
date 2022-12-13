@@ -25,3 +25,14 @@ print(sum)
 # summ += n % 10
 # n //= 10
 # print(int(summ))
+
+# from functools import reduce
+#
+# number = list(input('Введите вещественное число: '))
+# sum_of_digits = 0
+#
+# number = list(filter(lambda x: x not in (',', '.'), number))
+# print(f'Введенное число: {number}')
+#
+# sum_of_digits = reduce(lambda x, y: int(x) + int(y), number)
+# print(f'Сумма цифр числа: {sum_of_digits}')
