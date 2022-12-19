@@ -4,8 +4,10 @@
 
 * [*Список библиотек*](https://github.com/IrinaKazantseva/Python/blob/main/requirements.txt)
 
-добавлена progress==1.6
+Добавлена progress==1.6
 
-* [*Проверка на нечетность - программа*](https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/pip.py)
+* [*Программа*](https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/pip.py)
+
+Проверка на нечетность и заполнение прогресс-бара
 
 
