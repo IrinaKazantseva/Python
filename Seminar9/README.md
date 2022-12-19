@@ -24,7 +24,7 @@
 
 /sum - суммирование
 
-* [*Логирование*]https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/log.py)
+* [*Логирование*](https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/log.py)
 
 * [*Файл с логами*](https://github.com/IrinaKazantseva/Python/blob/main/bd.csv)
 
