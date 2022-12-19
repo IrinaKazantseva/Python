@@ -14,9 +14,9 @@
 
 **2. Создать телеграмм бота ( самый простой можно(калькулятор или повторитель), главное логгирование испльзуйте)**
 
-* [*Основной блок*]()
+* [*Основной блок*](https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/bot.py)
 
-* [*Команды бота*]()
+* [*Команды бота*](https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/command.py)
 
 /hello - приветствие
 
@@ -24,9 +24,9 @@
 
 /sum - суммирование
 
-* [*Логирование*]()
+* [*Логирование*]https://github.com/IrinaKazantseva/Python/blob/main/Seminar9/log.py)
 
-* [*Файл с логами*]()
+* [*Файл с логами*](https://github.com/IrinaKazantseva/Python/blob/main/bd.csv)
 
 
 
