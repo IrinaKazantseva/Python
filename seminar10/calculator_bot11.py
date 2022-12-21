@@ -31,7 +31,6 @@ def choice(update, context):
     if user_choice == 'Операции с рациональными числами':
         update.message.reply_text(
             'Введите первое рациональное число')
-
         return RATIONAL_ONE
 
     if user_choice == 'Настроение':
@@ -55,7 +54,7 @@ def rational_one(update, context):
         get_rational = float(get_rational)
         context.user_data['rational_one'] = get_rational
         update.message.reply_text(
-            'Введите второе рациональное')
+            'Введите второе рациональное число')
         return RATIONAL_TWO
 
     else:
@@ -106,7 +105,7 @@ def operatons_rational(update, context):
         except:
             update.message.reply_text('Деление на ноль запрещено')
     update.message.reply_text(
-        f'Результат: {rational_one} + {rational_two} = {result}')
+        f'Результат: {result}')
     return start(update, context)
 
 
@@ -165,7 +164,7 @@ def operatons_complex(update, context):
         except:
             update.message.reply_text('Деление на ноль запрещено')
     update.message.reply_text(
-        f'Результат: {complex_one} + {complex_two} = {result}')
+        f'Результат: {result}')
     return start(update, context)
 
 def cancel(update, _):
