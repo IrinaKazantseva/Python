@@ -5,8 +5,7 @@ from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, ConversationHandler,)
 # Включим ведение журнала
 logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
-)
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Определяем константы этапов разговора
