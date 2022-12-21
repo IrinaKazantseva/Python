@@ -1,4 +1,4 @@
-import requests
+#import requests
 import logging
 from config import TOKEN
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
@@ -33,10 +33,10 @@ def choice(update, context):
             'Введите первое рациональное число')
         return RATIONAL_ONE
 
-    if user_choice == 'Настроение':
-        update.message.reply_text(
-                'Введите фразу')
-        return RATIONAL
+    # if user_choice == 'Настроение':
+    #     update.message.reply_text(
+    #             'Введите фразу')
+    #     return RATIONAL
 
     if user_choice == 'Операции с комплесными числами':
         context.bot.send_message(
@@ -62,14 +62,14 @@ def rational_one(update, context):
             'Нужно ввести число')
 
 
-def rational(update, context):
-    data = {'x': [update.message.text]}
-    res = requests.post(API_URL, json=data).json()
-    santiment = res[0][0]
-    print(res[0][0])
-    print(res)
-    update.message.reply_text(res[0][0])
-    return start(update, context)
+# def rational(update, context):
+#     data = {'x': [update.message.text]}
+#     res = requests.post(API_URL, json=data).json()
+#     santiment = res[0][0]
+#     print(res[0][0])
+#     print(res)
+#     update.message.reply_text(res[0][0])
+#     return start(update, context)
 
 
 def rational_two(update, context):
