@@ -9,8 +9,9 @@ async def hi_command(update: Update, context: CallbackContext):
 
 async def help_command(update: Update, context: CallbackContext):
     log(update, context)
-    await update.message.reply_text(
-        f'"/hello - приветствие"\n"/help - список доступных команд"\n"/sum - сложение"\n"/reduce - вычитание"\n"/multiply - умножение"\n"/divide - деление"\n')
+    await update.message.reply_text(f'/hello - приветствие\n/help - список доступных команд\n')
+    await update.message.reply_text(f'Функции калькулятора:\nдля следующих операций введите два числа через пробел после команды\n')
+    await update.message.reply_text(f'/sum - сложение\n/reduce - вычитание\n/multiply - умножение\n/divide - деление\n')
 
 async def sum_command(update: Update, context: CallbackContext):
     log(update, context)
@@ -42,4 +43,7 @@ async def divide_command(update: Update, context: CallbackContext):
     items = msg.split()
     x = int(items[1])
     y = int(items[2])
-    await update.message.reply_text(f'{x} / {y} = {x/y}')
+    if y != 0:
+        await update.message.reply_text(f'{x} / {y} = {x/y}')
+    else:
+        await update.message.reply_text("На ноль делить нельзя!")
