@@ -26,7 +26,7 @@ async def reduce_command(update: Update, context: CallbackContext):
     items = msg.split()
     x = int(items[1])
     y = int(items[2])
-    await update.message.reply_text(f'{x} - {y} = {x+y}')
+    await update.message.reply_text(f'{x} - {y} = {x-y}')
 
 async def multiply_command(update: Update, context: CallbackContext):
     log(update, context)
@@ -34,7 +34,7 @@ async def multiply_command(update: Update, context: CallbackContext):
     items = msg.split()
     x = int(items[1])
     y = int(items[2])
-    await update.message.reply_text(f'{x} * {y} = {x+y}')
+    await update.message.reply_text(f'{x} * {y} = {x*y}')
 
 async def divide_command(update: Update, context: CallbackContext):
     log(update, context)
@@ -42,4 +42,4 @@ async def divide_command(update: Update, context: CallbackContext):
     items = msg.split()
     x = int(items[1])
     y = int(items[2])
-    await update.message.reply_text(f'{x} / {y} = {x+y}')
+    await update.message.reply_text(f'{x} / {y} = {x/y}')
